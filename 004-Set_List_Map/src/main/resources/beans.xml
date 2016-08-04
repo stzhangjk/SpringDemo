@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="entity.User"/>
+    <bean id="userDao" class="dao.UserDAO"/>
+    <bean id="userService" class="service.UserService">
+        <property name="dao" ref="userDao"/>
+        <property name="set">
+            <set>
+                <value type="java.lang.String">123456</value>
+                <value type="java.lang.Integer">10</value>
+            </set>
+        </property>
+
+        <property name="list">
+            <list>
+                <value type="java.lang.String">123456</value>
+                <value type="java.lang.Integer">10</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="1" value="001"/>
+                <entry key="2" value="002"/>
+                <entry key="3" value="003"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>

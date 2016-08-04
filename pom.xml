@@ -11,7 +11,25 @@
     <modules>
         <module>001-LoginDemo</module>
         <module>002-Resource</module>
+        <module>003-IOC</module>
+        <module>004-Set_List_Map</module>
+        <module>005-Autowire</module>
+        <module>006-LifeCycle</module>
+
     </modules>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

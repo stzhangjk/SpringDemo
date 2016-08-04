@@ -24,12 +24,23 @@
         <processorPath useClasspath="true" />
         <module name="001-LoginDemo" />
         <module name="002-Resource" />
+        <module name="003-IOC" />
+        <module name="004-Set_List_Map" />
+        <module name="005-Autowire" />
+        <module name="006-LifeCycle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="001-LoginDemo" target="1.5" />
-      <module name="002-Resource" target="1.5" />
-      <module name="SpringDemo" target="1.5" />
+      <module name="001-LoginDemo" target="1.8" />
+      <module name="002-Resource" target="1.8" />
+      <module name="003-AOP" target="1.5" />
+      <module name="003-IOC" target="1.8" />
+      <module name="004-Set_List_Map" target="1.8" />
+      <module name="005-Autowire" target="1.8" />
+      <module name="006-Anno-Autowire" target="1.8" />
+      <module name="006-LifeCycle" target="1.8" />
+      <module name="SpringDemo" target="1.8" />
+      <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
