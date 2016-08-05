@@ -1,9 +1,6 @@
-package dao.impl;
+package com.stzhangjk.springdemo.dao.impl;
 
-import dao.api.IUserDAO;
-
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
+import com.stzhangjk.springdemo.dao.api.IUserDAO;
 
 /**
  * Created by Grady on 2016.8.5.

@@ -1,7 +1,4 @@
-package interceptor;
-
-import dao.api.IUserDAO;
-import dao.impl.UserDAO;
+package com.stzhangjk.springdemo.interceptor;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

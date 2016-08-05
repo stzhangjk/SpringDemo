@@ -19,6 +19,7 @@
         <module>008-PostConstruct-PreDestroy</module>
         <module>009-Autowired-Qualifier</module>
         <module>010-AOP-Proxy</module>
+        <module>011-AOP-AspectJ-AutoProxy</module>
     </modules>
 
     <repositories>

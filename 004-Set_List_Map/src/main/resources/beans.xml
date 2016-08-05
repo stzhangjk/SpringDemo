@@ -7,7 +7,7 @@
     <bean id="user" class="com.stzhangjk.com.stzhangjk.springdemo.entity.User"/>
     <bean id="userDao" class="com.stzhangjk.com.stzhangjk.springdemo.daorDAO"/>
     <bean id="userService" class="com.stzhangjk.com.stzhangjk.springdemo.service.UserService">
-        <property name="com.stzhangjk.com.stzhangjk.springdemo.dao" ref="userDao"/>
+        <property name="com.stzhangjk.com.stzhangjk.springdemo.com.stzhangjk.springdemo.dao" ref="userDao"/>
         <property name="set">
             <set>
                 <value type="java.lang.String">123456</value>

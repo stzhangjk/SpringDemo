@@ -1,6 +1,6 @@
-import dao.api.IUserDAO;
-import dao.impl.UserDAO;
-import interceptor.LogInterceptor;
+import com.stzhangjk.springdemo.dao.api.IUserDAO;
+import com.stzhangjk.springdemo.dao.impl.UserDAO;
+import com.stzhangjk.springdemo.interceptor.LogInterceptor;
 import org.junit.Test;
 
 import java.lang.reflect.Proxy;
