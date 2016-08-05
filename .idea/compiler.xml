@@ -33,6 +33,7 @@
         <module name="009-Autowired-Qualifier" />
         <module name="010-AOP-Proxy" />
         <module name="011-AOP-AspectJ-AutoProxy" />
+        <module name="012-AOP-XML" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -49,6 +50,7 @@
       <module name="009-Autowired-Qualifier" target="1.8" />
       <module name="010-AOP-Proxy" target="1.8" />
       <module name="011-AOP-AspectJ-AutoProxy" target="1.8" />
+      <module name="012-AOP-XML" target="1.8" />
       <module name="SpringDemo" target="1.8" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>

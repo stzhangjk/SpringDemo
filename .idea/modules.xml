@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/009-Autowired-Qualifier/009-Autowired-Qualifier.iml" filepath="$PROJECT_DIR$/009-Autowired-Qualifier/009-Autowired-Qualifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-AOP-Proxy/010-AOP-Proxy.iml" filepath="$PROJECT_DIR$/010-AOP-Proxy/010-AOP-Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-AOP-AspectJ-AutoProxy/011-AOP-AspectJ-AutoProxy.iml" filepath="$PROJECT_DIR$/011-AOP-AspectJ-AutoProxy/011-AOP-AspectJ-AutoProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/012-AOP-XML/012-AOP-XML.iml" filepath="$PROJECT_DIR$/012-AOP-XML/012-AOP-XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo.iml" />
     </modules>
   </component>

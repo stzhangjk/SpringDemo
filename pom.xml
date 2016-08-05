@@ -20,6 +20,7 @@
         <module>009-Autowired-Qualifier</module>
         <module>010-AOP-Proxy</module>
         <module>011-AOP-AspectJ-AutoProxy</module>
+        <module>012-AOP-XML</module>
     </modules>
 
     <repositories>
