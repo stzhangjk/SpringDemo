@@ -4,12 +4,11 @@ import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by Grady on 2016.6.10.
+ * Created by Grady on 2016.8.5.
  */
-public class TestAutowire {
-
+public class Test009 {
     @Test
-    public void testAutowire(){
+    public void test(){
         ClassPathXmlApplicationContext context  = new ClassPathXmlApplicationContext("beans.xml");
         UserService service = (UserService)context.getBean("userService");
         User u = new User();

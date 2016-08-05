@@ -8,6 +8,10 @@
        http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
-    <context:component-scan base-package="com.stzhangjk.com.stzhangjk.springdemo"/>
+
+    <bean id="user" class="com.stzhangjk.springdemo.entity.User"/>
+    <bean id="userDAO" class="com.stzhangjk.springdemo.dao.UserDAO"/>
+    <bean id="userService" class="com.stzhangjk.springdemo.service.UserService">
+    </bean>
 
 </beans>
