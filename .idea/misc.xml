@@ -9,13 +9,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/003-AOP/pom.xml" />
-        <option value="$PROJECT_DIR$/006-Anno-Autowire/pom.xml" />
-        <option value="$PROJECT_DIR$/untitled/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />

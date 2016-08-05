@@ -14,8 +14,8 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <context:component-scan base-package="login.dao"/>
-    <context:component-scan base-package="login.service"/>
+    <context:component-scan base-package="login.com.stzhangjk.springdemo.dao"/>
+    <context:component-scan base-package="login.com.stzhangjk.springdemo.service"/>
 
     <bean id="dataSource"
           class="org.apache.commons.dbcp2.BasicDataSource"
@@ -34,7 +34,7 @@
           p:dataSource-ref="dataSource"/>
 
     <aop:config proxy-target-class="true">
-        <aop:pointcut id="serviceMethod" expression="execution(* login.service..*(..))"/>
+        <aop:pointcut id="serviceMethod" expression="execution(* login.com.stzhangjk.springdemo.service..*(..))"/>
         <aop:advisor advice-ref="txActive" pointcut-ref="serviceMethod"/>
     </aop:config>
 

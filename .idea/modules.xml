@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/004-Set_List_Map/004-Set_List_Map.iml" filepath="$PROJECT_DIR$/004-Set_List_Map/004-Set_List_Map.iml" />
       <module fileurl="file://$PROJECT_DIR$/005-Autowire/005-Autowire.iml" filepath="$PROJECT_DIR$/005-Autowire/005-Autowire.iml" />
       <module fileurl="file://$PROJECT_DIR$/006-LifeCycle/006-LifeCycle.iml" filepath="$PROJECT_DIR$/006-LifeCycle/006-LifeCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-Anno-Resource-Component/007-Anno-Resource-Component.iml" filepath="$PROJECT_DIR$/007-Anno-Resource-Component/007-Anno-Resource-Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-PostConstruct-PreDestroy/008-PostConstruct-PreDestroy.iml" filepath="$PROJECT_DIR$/008-PostConstruct-PreDestroy/008-PostConstruct-PreDestroy.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo.iml" />
     </modules>
   </component>

@@ -1,7 +1,7 @@
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import service.UserService;
+import com.stzhangjk.springdemo.service.UserService;
 
 /**
  * Created by Grady on 2016.8.4.

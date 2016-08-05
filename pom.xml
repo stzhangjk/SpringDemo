@@ -15,8 +15,24 @@
         <module>004-Set_List_Map</module>
         <module>005-Autowire</module>
         <module>006-LifeCycle</module>
-
+        <module>007-Anno-Resource-Component</module>
+        <module>008-PostConstruct-PreDestroy</module>
     </modules>
+
+    <repositories>
+        <repository>
+            <id>jboss</id>
+            <name>JBoss Repository</name>
+            <layout>default</layout>
+            <url>http://repository.jboss.com/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>

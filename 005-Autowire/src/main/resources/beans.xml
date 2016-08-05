@@ -4,10 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="entity.User"/>
-    <bean id="userDao" class="dao.UserDAO"/>
-    <bean id="userService" class="service.UserService" autowire="byType">
-
+    <bean id="user" class="com.stzhangjk.springdemo.entity.User"/>
+    <bean id="userDAO" class="com.stzhangjk.springdemo.dao.UserDAO"/>
+    <bean id="userService" class="com.stzhangjk.springdemo.service.UserService" autowire="byType">
     </bean>
 
 </beans>

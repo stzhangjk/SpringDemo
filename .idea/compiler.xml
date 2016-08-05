@@ -28,6 +28,8 @@
         <module name="004-Set_List_Map" />
         <module name="005-Autowire" />
         <module name="006-LifeCycle" />
+        <module name="007-Anno-Resource-Component" />
+        <module name="008-PostConstruct-PreDestroy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -39,6 +41,8 @@
       <module name="005-Autowire" target="1.8" />
       <module name="006-Anno-Autowire" target="1.8" />
       <module name="006-LifeCycle" target="1.8" />
+      <module name="007-Anno-Resource-Component" target="1.8" />
+      <module name="008-PostConstruct-PreDestroy" target="1.8" />
       <module name="SpringDemo" target="1.8" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>

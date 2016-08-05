@@ -1,6 +1,6 @@
 <%--
   Created by IntelliJ IDEA.
-  entity.User: stzhangjk
+  com.stzhangjk.springdemo.entity.User: stzhangjk
   Date: 2016.5.14
   Time: 12:59
   To change this template use File | Settings | File Templates.
