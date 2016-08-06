@@ -35,25 +35,28 @@
         <module name="011-AOP-AspectJ-AutoProxy" />
         <module name="012-AOP-XML" />
         <module name="013-DataSource" />
+        <module name="014-Spring_and_Hibernate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="001-LoginDemo" target="1.8" />
-      <module name="002-Resource" target="1.8" />
+      <module name="001-LoginDemo" target="1.7" />
+      <module name="002-Resource" target="1.7" />
       <module name="003-AOP" target="1.5" />
-      <module name="003-IOC" target="1.8" />
-      <module name="004-Set_List_Map" target="1.8" />
+      <module name="003-IOC" target="1.7" />
+      <module name="004-Set_List_Map" target="1.7" />
       <module name="005-Autowire" target="1.8" />
       <module name="006-Anno-Autowire" target="1.8" />
-      <module name="006-LifeCycle" target="1.8" />
-      <module name="007-Anno-Resource-Component" target="1.8" />
-      <module name="008-PostConstruct-PreDestroy" target="1.8" />
+      <module name="006-LifeCycle" target="1.7" />
+      <module name="007-Anno-Resource-Component" target="1.7" />
+      <module name="008-PostConstruct-PreDestroy" target="1.7" />
       <module name="009-Autowired-Qualifier" target="1.8" />
-      <module name="010-AOP-Proxy" target="1.8" />
-      <module name="011-AOP-AspectJ-AutoProxy" target="1.8" />
-      <module name="012-AOP-XML" target="1.8" />
-      <module name="013-DataSource" target="1.8" />
-      <module name="SpringDemo" target="1.8" />
+      <module name="010-AOP-Proxy" target="1.7" />
+      <module name="011-AOP-AspectJ-AutoProxy" target="1.7" />
+      <module name="012-AOP-XML" target="1.7" />
+      <module name="013-DataSource" target="1.7" />
+      <module name="014-Spring&amp;Hibernate" target="1.5" />
+      <module name="014-Spring_and_Hibernate" target="1.7" />
+      <module name="SpringDemo" target="1.7" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>
   </component>

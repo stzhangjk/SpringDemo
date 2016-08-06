@@ -22,41 +22,8 @@
         <module>011-AOP-AspectJ-AutoProxy</module>
         <module>012-AOP-XML</module>
         <module>013-DataSource</module>
+        <module>014-Spring_and_Hibernate</module>
     </modules>
-
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-framework-bom</artifactId>
-                <version>4.1.6.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
-    <repositories>
-        <repository>
-            <id>jboss</id>
-            <name>JBoss Repository</name>
-            <layout>default</layout>
-            <url>http://repository.jboss.com/maven2/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-
-        <repository>
-            <id>io.spring.repo.maven.release</id>
-            <url>http://repo.spring.io/release/</url>
-            <snapshots><enabled>false</enabled></snapshots>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
@@ -65,8 +32,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
         </plugins>
