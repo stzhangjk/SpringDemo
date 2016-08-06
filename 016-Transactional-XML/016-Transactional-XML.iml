@@ -27,7 +27,9 @@
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:2.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:2.5.6" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:2." level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:2.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:2.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:2.5.6" level="project" />

@@ -25,6 +25,7 @@
         <module>014-Spring_and_Hibernate</module>
         <module>015-TransactionManage</module>
         <module>016-Transactional-XML</module>
+        <module>017-HitbernateTemplate</module>
     </modules>
 
     <build>

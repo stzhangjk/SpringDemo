@@ -10,7 +10,7 @@
     <context:annotation-config/>
 
     <bean id="user" class="com.stzhangjk.springdemo.entity.User"/>
-    <bean id="userDAO" class="com.stzhangjk.springdemo.com.stzhangjk.springdemo.dao.com.stzhangjk.springdemo.dao.impl.UserDAO"/>
+    <bean id="userDAO" class="com.stzhangjk.springdemo.dao.UserDAO"/>
     <bean id="userService" class="com.stzhangjk.springdemo.service.UserService">
     </bean>
 

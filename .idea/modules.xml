@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/014-Spring_and_Hibernate/014-Spring_and_Hibernate.iml" filepath="$PROJECT_DIR$/014-Spring_and_Hibernate/014-Spring_and_Hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-TransactionManage/015-TransactionManage.iml" filepath="$PROJECT_DIR$/015-TransactionManage/015-TransactionManage.iml" />
       <module fileurl="file://$PROJECT_DIR$/016-Transactional-XML/016-Transactional-XML.iml" filepath="$PROJECT_DIR$/016-Transactional-XML/016-Transactional-XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/017-HitbernateTemplate/017-HitbernateTemplate.iml" filepath="$PROJECT_DIR$/017-HitbernateTemplate/017-HitbernateTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo.iml" />
     </modules>
   </component>
