@@ -36,6 +36,7 @@
         <module name="012-AOP-XML" />
         <module name="013-DataSource" />
         <module name="014-Spring_and_Hibernate" />
+        <module name="015-TransactionManage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -56,6 +57,7 @@
       <module name="013-DataSource" target="1.7" />
       <module name="014-Spring&amp;Hibernate" target="1.5" />
       <module name="014-Spring_and_Hibernate" target="1.7" />
+      <module name="015-TransactionManage" target="1.7" />
       <module name="SpringDemo" target="1.7" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>

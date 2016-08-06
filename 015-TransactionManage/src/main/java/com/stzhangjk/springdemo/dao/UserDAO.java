@@ -15,21 +15,15 @@ public class UserDAO {
     private SessionFactory sessionFactory;
 
     public void insert(User user){
-
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
+        Session session = sessionFactory.getCurrentSession();
         session.save(user);
-        session.getTransaction().commit();
-        System.out.println("insert "+user.getUsername()+"done!");
-
     }
-
 
     public SessionFactory getSessionFactory() {
         return sessionFactory;
     }
 
-    @Resource(name = "mySessionFactory")
+    @Resource
     public void setSessionFactory(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }

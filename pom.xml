@@ -23,6 +23,7 @@
         <module>012-AOP-XML</module>
         <module>013-DataSource</module>
         <module>014-Spring_and_Hibernate</module>
+        <module>015-TransactionManage</module>
     </modules>
 
     <build>

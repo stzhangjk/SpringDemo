@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/012-AOP-XML/012-AOP-XML.iml" filepath="$PROJECT_DIR$/012-AOP-XML/012-AOP-XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/013-DataSource/013-DataSource.iml" filepath="$PROJECT_DIR$/013-DataSource/013-DataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/014-Spring_and_Hibernate/014-Spring_and_Hibernate.iml" filepath="$PROJECT_DIR$/014-Spring_and_Hibernate/014-Spring_and_Hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/015-TransactionManage/015-TransactionManage.iml" filepath="$PROJECT_DIR$/015-TransactionManage/015-TransactionManage.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo.iml" />
     </modules>
   </component>
