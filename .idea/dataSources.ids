@@ -1,6 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="MySQL - SpringDemo_001_LoginDemo@localhost" uuid="65a55777-5c76-4371-87d5-dfa1b8143b85">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <database-info product="MySQL" version="5.6.24" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="springdemo_001_logindemo">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="hibernatedemo"/>
+      <schema id="3" name="information_schema"/>
+      <schema id="4" name="library"/>
+      <schema id="5" name="mvcdemo"/>
+      <schema id="6" name="mysql"/>
+      <schema id="7" name="ols"/>
+      <schema id="8" name="parkingmanager"/>
+      <schema id="9" name="performance_schema"/>
+      <schema id="10" name="spring-demo-013"/>
+      <table id="11" parent="1" name="_login_log"/>
+      <table id="12" parent="1" name="_user"/>
+      <column id="13" parent="11" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="14" parent="11" name="uid">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="15" parent="11" name="ip">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="16" parent="11" name="login_datetime">
+        <data-type>datetime|0</data-type>
+      </column>
+      <key id="17" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="18" parent="12" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="19" parent="12" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="20" parent="12" name="credits">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="21" parent="12" name="password">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="22" parent="12" name="last_visit">
+        <data-type>datetime|0</data-type>
+      </column>
+      <column id="23" parent="12" name="last_ip">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="24" parent="12" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+  <data-source name="MySQL - spring-demo-013@localhost" uuid="61897e98-af0a-4892-8759-e50bb7dc60bc">
+    <database-info product="MySQL" version="5.6.24" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.37 ( Revision: 09940f05b4c98150f352e787a2549f11a2e9da93 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="spring-demo-013">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="hibernatedemo"/>
+      <schema id="3" name="information_schema"/>
+      <schema id="4" name="library"/>
+      <schema id="5" name="mvcdemo"/>
+      <schema id="6" name="mysql"/>
+      <schema id="7" name="ols"/>
+      <schema id="8" name="parkingmanager"/>
+      <schema id="9" name="performance_schema"/>
+      <schema id="10" name="springdemo_001_logindemo"/>
+      <table id="11" parent="1" name="_user"/>
+      <column id="12" parent="11" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="13" parent="11" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="14" parent="11" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <key id="15" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
   </data-source>
 </component>

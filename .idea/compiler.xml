@@ -34,6 +34,7 @@
         <module name="010-AOP-Proxy" />
         <module name="011-AOP-AspectJ-AutoProxy" />
         <module name="012-AOP-XML" />
+        <module name="013-DataSource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -51,6 +52,7 @@
       <module name="010-AOP-Proxy" target="1.8" />
       <module name="011-AOP-AspectJ-AutoProxy" target="1.8" />
       <module name="012-AOP-XML" target="1.8" />
+      <module name="013-DataSource" target="1.8" />
       <module name="SpringDemo" target="1.8" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>

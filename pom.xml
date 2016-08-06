@@ -21,7 +21,21 @@
         <module>010-AOP-Proxy</module>
         <module>011-AOP-AspectJ-AutoProxy</module>
         <module>012-AOP-XML</module>
+        <module>013-DataSource</module>
     </modules>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>4.1.6.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <repositories>
         <repository>
@@ -35,6 +49,12 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
+        </repository>
+
+        <repository>
+            <id>io.spring.repo.maven.release</id>
+            <url>http://repo.spring.io/release/</url>
+            <snapshots><enabled>false</enabled></snapshots>
         </repository>
     </repositories>
 
