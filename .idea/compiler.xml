@@ -39,6 +39,7 @@
         <module name="015-TransactionManage" />
         <module name="016-Transactional-XML" />
         <module name="017-HitbernateTemplate" />
+        <module name="018-Spring_and_Struts2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -62,6 +63,7 @@
       <module name="015-TransactionManage" target="1.7" />
       <module name="016-Transactional-XML" target="1.7" />
       <module name="017-HitbernateTemplate" target="1.7" />
+      <module name="018-Spring_and_Struts2" target="1.7" />
       <module name="SpringDemo" target="1.7" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>

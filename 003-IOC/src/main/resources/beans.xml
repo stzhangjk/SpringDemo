@@ -5,9 +5,9 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="user" class="com.stzhangjk.springdemo.entity.User"/>
-    <bean id="userDao" class="com.stzhangjk.springdemo.dao.UserDAO"/>
+    <bean id="dao" class="com.stzhangjk.springdemo.dao.UserDAO"/>
     <bean id="userService" class="com.stzhangjk.springdemo.service.UserService">
-        <property name="dao" ref="userDao"/>
+        <property name="dao" ref="dao"/>
     </bean>
 
 </beans>
