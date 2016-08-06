@@ -13,5 +13,11 @@
       <introspection-scope>spring-demo-013:</introspection-scope>
       <resolve-scope>spring-demo-013:</resolve-scope>
     </data-source>
+    <data-source name="MySQL - spring-demo-015@localhost" uuid="7158daea-9a38-45c0-9b35-316ffba804f3">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>spring-demo-015:</introspection-scope>
+      <resolve-scope>spring-demo-015:</resolve-scope>
+    </data-source>
   </component>
 </project>
