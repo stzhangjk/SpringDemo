@@ -8,9 +8,9 @@ import com.stzhangjk.springdemo.service.impl.UserService;
 
 import javax.annotation.Resource;
 
-//@Component("user")   不写，struts容器会生成它，再去spring的容器找需要注入的bean
+
 public class UserAction extends ActionSupport {
-	
+
 	private String username;
 	private String password;
 	private String password2;
