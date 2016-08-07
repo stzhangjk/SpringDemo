@@ -20,6 +20,10 @@
       <module fileurl="file://$PROJECT_DIR$/016-Transactional-XML/016-Transactional-XML.iml" filepath="$PROJECT_DIR$/016-Transactional-XML/016-Transactional-XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/017-HitbernateTemplate/017-HitbernateTemplate.iml" filepath="$PROJECT_DIR$/017-HitbernateTemplate/017-HitbernateTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/018-Spring_and_Struts2/018-Spring_and_Struts2.iml" filepath="$PROJECT_DIR$/018-Spring_and_Struts2/018-Spring_and_Struts2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/019-SSH/019-SSH.iml" filepath="$PROJECT_DIR$/019-SSH/019-SSH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/020-OpenSessionInView/020-OpenSessionInView.iml" filepath="$PROJECT_DIR$/020-OpenSessionInView/020-OpenSessionInView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/021-CharacterEncodingFilter/021-CharacterEncodingFilter.iml" filepath="$PROJECT_DIR$/021-CharacterEncodingFilter/021-CharacterEncodingFilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/022-Spring-Struts2-Action/022-Spring-Struts2-Action.iml" filepath="$PROJECT_DIR$/022-Spring-Struts2-Action/022-Spring-Struts2-Action.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo.iml" />
     </modules>
   </component>

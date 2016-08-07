@@ -40,6 +40,10 @@
         <module name="016-Transactional-XML" />
         <module name="017-HitbernateTemplate" />
         <module name="018-Spring_and_Struts2" />
+        <module name="019-SSH" />
+        <module name="020-OpenSessionInView" />
+        <module name="021-CharacterEncodingFilter" />
+        <module name="022-Spring-Struts2-Action" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -64,6 +68,10 @@
       <module name="016-Transactional-XML" target="1.7" />
       <module name="017-HitbernateTemplate" target="1.7" />
       <module name="018-Spring_and_Struts2" target="1.7" />
+      <module name="019-SSH" target="1.7" />
+      <module name="020-OpenSessionInView" target="1.7" />
+      <module name="021-CharacterEncodingFilter" target="1.7" />
+      <module name="022-Spring-Struts2-Action" target="1.7" />
       <module name="SpringDemo" target="1.7" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>

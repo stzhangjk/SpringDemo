@@ -85,21 +85,22 @@
       <schema id="8" name="parkingmanager"/>
       <schema id="9" name="performance_schema"/>
       <schema id="10" name="springdemo_001_logindemo"/>
-      <table id="11" parent="1" name="_user"/>
-      <column id="12" parent="11" name="id">
+      <schema id="11" name="spring-demo-015"/>
+      <table id="12" parent="1" name="_user"/>
+      <column id="13" parent="12" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)|0</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="13" parent="11" name="username">
+      <column id="14" parent="12" name="username">
         <mandatory>1</mandatory>
         <data-type>varchar(30)|0</data-type>
       </column>
-      <column id="14" parent="11" name="password">
+      <column id="15" parent="12" name="password">
         <mandatory>1</mandatory>
         <data-type>varchar(30)|0</data-type>
       </column>
-      <key id="15" parent="11" name="PRIMARY">
+      <key id="16" parent="12" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
