@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223013e9-b6d7-4b3e-b2a6-a36fc7a0f74c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/022-Spring-Struts2-Action.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/java/com/stzhangjk/springdemo/action/UserAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/java/com/stzhangjk/springdemo/dao/IUserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/java/com/stzhangjk/springdemo/dao/impl/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/java/com/stzhangjk/springdemo/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/java/com/stzhangjk/springdemo/service/IUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/java/com/stzhangjk/springdemo/service/impl/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/resources/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/src/main/resources/struts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/web/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/web/registerFail.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/022-Spring-Struts2-Action/web/registerSuccess.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringDemo.iws" />
@@ -1124,7 +1110,7 @@
       <workItem from="1470492712645" duration="3154000" />
       <workItem from="1470535134957" duration="2594000" />
       <workItem from="1470538136768" duration="6713000" />
-      <workItem from="1470545883930" duration="364000" />
+      <workItem from="1470545883930" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="生命周期，init，destroy">
       <created>1470325052676</created>
@@ -1259,7 +1245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470546236958</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="让spring管理action bean生成">
+      <created>1470546286159</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1470546286159</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1295,7 +1288,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108977000" />
+    <option name="totallyTimeSpent" value="109042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1391,7 +1384,8 @@
     <MESSAGE value="整合Spring2.5.6+Struts2.1.8+Hibernate3.3.2" />
     <MESSAGE value="用OpenSessionInView处理事务边界问题" />
     <MESSAGE value="CharacterEncodingFilter处理中文编码问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="CharacterEncodingFilter处理中文编码问题" />
+    <MESSAGE value="让spring管理action bean生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="让spring管理action bean生成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
