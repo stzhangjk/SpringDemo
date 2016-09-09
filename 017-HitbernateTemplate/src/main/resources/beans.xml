@@ -48,13 +48,13 @@
         <property name="sessionFactory" ref="mySessionFactory"/>
     </bean>
 
-    <bean id="txManeger" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+    <bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
         <property name="sessionFactory" ref="mySessionFactory"/>
     </bean>
 
-    <tx:annotation-driven transaction-manager="txManeger"/>
+    <tx:annotation-driven transaction-manager="txManager"/>
 
-    <tx:advice id="txAdvice" transaction-manager="txManeger">
+    <tx:advice id="txAdvice" transaction-manager="txManager">
         <tx:attributes>
             <tx:method name="getUser" read-only="true"/>
             <tx:method name="insert" propagation="REQUIRED"/>

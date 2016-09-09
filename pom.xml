@@ -31,6 +31,7 @@
         <module>020-OpenSessionInView</module>
         <module>021-CharacterEncodingFilter</module>
         <module>022-Spring-Struts2-Action</module>
+        <module>023-Spring4.3.2_and_Hibernate5.2.2</module>
     </modules>
 
     <build>
@@ -46,5 +47,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>io.spring.repo.maven.release</id>
+            <url>http://repo.spring.io/release/</url>
+            <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+    </repositories>
 
 </project>
