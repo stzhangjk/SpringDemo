@@ -32,6 +32,7 @@
         <module>021-CharacterEncodingFilter</module>
         <module>022-Spring-Struts2-Action</module>
         <module>023-Spring4.3.2_and_Hibernate5.2.2</module>
+        <module>024-Spring4.2.5_SpringMVC4.2.5_and_Mybatis3.4.0</module>
     </modules>
 
     <build>
