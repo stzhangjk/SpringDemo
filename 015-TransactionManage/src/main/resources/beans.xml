@@ -24,10 +24,9 @@
     <bean id="mySessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
 
-        <property name="annotatedClasses">
+        <property name="packagesToScan">
             <list>
-                <value>com.stzhangjk.springdemo.entity.User</value>
-                <value>com.stzhangjk.springdemo.entity.Log</value>
+                <value>com.stzhangjk.springdemo.entity</value>
             </list>
         </property>
 
@@ -41,10 +40,10 @@
         </property>
     </bean>
 
-    <bean id="txManeger" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+    <bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
         <property name="sessionFactory" ref="mySessionFactory"/>
     </bean>
 
-    <tx:annotation-driven transaction-manager="txManeger"/>
+    <tx:annotation-driven transaction-manager="txManager"/>
 
 </beans>

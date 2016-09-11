@@ -33,22 +33,14 @@ public class UserService {
     }
 
     //rollbackfor ,什么情况下回滚
-    @Transactional(readOnly = true)//只读，建立只读Connection，效率比较高
+    //@Transactional(readOnly = true)//只读，建立只读Connection，效率比较高
     public User getUser(int id){
         return null;
-    }
-
-    public UserDAO getDao() {
-        return dao;
     }
 
     @Resource
     public void setDao(UserDAO dao) {
         this.dao = dao;
-    }
-
-    public LogDAO getLogDAO() {
-        return logDAO;
     }
 
     @Resource

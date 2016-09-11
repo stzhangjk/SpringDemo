@@ -1,8 +1,9 @@
 package com.stzhangjk.springdemo.dao;
 
 import com.stzhangjk.springdemo.entity.User;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.classic.Session;
+import org.springframework.orm.hibernate3.SessionFactoryUtils;
 import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 
@@ -15,12 +16,9 @@ public class UserDAO {
     private SessionFactory sessionFactory;
 
     public void insert(User user){
-        Session session = sessionFactory.getCurrentSession();
-        session.save(user);
-    }
+        Session session = SessionFactoryUtils.getSession(sessionFactory,false);
 
-    public SessionFactory getSessionFactory() {
-        return sessionFactory;
+        session.save(user);
     }
 
     @Resource
